@@ -21,6 +21,7 @@ public void createProduct() throws Throwable {
 	String PrdName=elib.getExcelData("ProductSheet", 0, 0)+ranNum;
 	product.enterPrdNAme(PrdName);
 	product.clickSaveButton();
+	product.clickPrdHookUp();//testing with push
 }
 }
 
